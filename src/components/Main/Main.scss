@@ -4,7 +4,7 @@
   article {
     width: auto;
     color: $primary-text-color;
-    padding: 0 45px;
+    padding: 70px 45px 0 45px;
     display: flex;
     justify-content: space-between;
     .impact-section  {
@@ -23,7 +23,7 @@
     button {
       width: 12vw;
       padding: 20px;
-      background-color: $quaternion-color;
+      background-color: $quaternary-color;
       border-style: none;
       border-radius: 35px;
       color: white;
@@ -34,5 +34,72 @@
       border-radius: 19px;
     }
 
+  }
+  section {
+    width: auto;
+    height: auto;
+    padding: 60px;
+    h2 {
+      color: $primary-text-color;
+      font-size: 2em;
+    }
+    .healthcare {
+      padding-bottom: 60px;
+      h2 {
+        font-weight: 300;
+        padding-bottom: 60px;
+      }
+      .card-section {
+        display: flex;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+        row-gap: 80px;
+      }
+      .product-card {
+        width: 14vw;
+        height: 45vh;
+        background-color: $secondary-color;
+        color: $primary-text-color;
+        padding: 20px;
+        border-radius: 8px;
+        .icon {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          padding-bottom: 12px;
+          svg {
+            width: 28px;
+            height: 28px;
+            path {
+              stroke: $primary-text-color;
+            }
+          }
+        }
+        .product-image {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 12vw;
+            height: 30vh;
+            object-fit: cover;
+            border-radius: 6px;
+          }
+        }
+      }
+    }
+    .furniture {
+      @extend .healthcare;
+      .product-card {
+        background-color: $tertiary-color;
+        color: white;
+      }
+    }
   }
 }
