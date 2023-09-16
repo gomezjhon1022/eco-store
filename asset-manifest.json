@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/eco-store/static/css/main.63ea7ff8.css",
+    "main.js": "/eco-store/static/js/main.e8a93024.js",
+    "static/media/map.png": "/eco-store/static/media/map.8e36a665d9ff1bd8ebcc.png",
+    "static/media/main-2.jpg": "/eco-store/static/media/main-2.9a6b520110ba50028acd.jpg",
+    "static/media/gallery-1.jpg": "/eco-store/static/media/gallery-1.29d8275a9820b3a1c1bf.jpg",
+    "static/media/gallery-2.jpg": "/eco-store/static/media/gallery-2.69524bf3bf9831c111fe.jpg",
+    "static/media/gallery-3.jpg": "/eco-store/static/media/gallery-3.122aa0225b3e15cb86e5.jpg",
+    "static/media/stand-table.jpg": "/eco-store/static/media/stand-table.0e76e07801627fc7b1f3.jpg",
+    "static/media/serum.jpg": "/eco-store/static/media/serum.0f9bc04675e8881134e6.jpg",
+    "static/media/mueble.jpg": "/eco-store/static/media/mueble.deb8badfa952790bddfd.jpg",
+    "static/media/small-table.jpeg": "/eco-store/static/media/small-table.924bfb9beca16c80ce0b.jpeg",
+    "static/media/hand-cream.jpeg": "/eco-store/static/media/hand-cream.459b08d0d517780a1fd3.jpeg",
+    "static/media/mini-table.jpg": "/eco-store/static/media/mini-table.ba79a31777472c87e30a.jpg",
+    "static/media/organic-kit.jpg": "/eco-store/static/media/organic-kit.cdb275cda36d7c2ecf2e.jpg",
+    "static/media/table.jpg": "/eco-store/static/media/table.6b91f61ae53ccfe7dac9.jpg",
+    "static/media/desk-lamp.jpg": "/eco-store/static/media/desk-lamp.8783c3f5dbc4e294b223.jpg",
+    "static/media/stand.jpg": "/eco-store/static/media/stand.a4f31874429e1f09399f.jpg",
+    "static/media/toothbrush.jpg": "/eco-store/static/media/toothbrush.2223dd46e0ba160171b8.jpg",
+    "static/media/organic-soap.jpg": "/eco-store/static/media/organic-soap.fe47214a55e4652f475c.jpg",
+    "static/media/mirror.jpg": "/eco-store/static/media/mirror.dd2dbf90f3347e8ff477.jpg",
+    "static/media/guasha-kit.jpg": "/eco-store/static/media/guasha-kit.2c3be08a2b725715ad24.jpg",
+    "static/media/wood-chair.jpg": "/eco-store/static/media/wood-chair.886334fbea803f08d04c.jpg",
+    "index.html": "/eco-store/index.html",
+    "main.63ea7ff8.css.map": "/eco-store/static/css/main.63ea7ff8.css.map",
+    "main.e8a93024.js.map": "/eco-store/static/js/main.e8a93024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ea7ff8.css",
+    "static/js/main.e8a93024.js"
+  ]
+}
