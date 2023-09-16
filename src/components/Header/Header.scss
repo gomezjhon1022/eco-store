@@ -1,9 +1,9 @@
-@import '../../styles/variables.scss';
+@use '../../styles/variables.scss' as *;
+@use '../../styles/mixins.scss' as *;
 
 .header {
   width: auto;
-  display: flex;
-  justify-content: space-between;
+  @include flexCenter(row, space-between,center);
   color: $primary-text-color;
   padding: 15px;
   p {
@@ -13,9 +13,6 @@
   .icons {
     display: flex;
     gap:15px;
-    button {
-      background: none;
-      border-style: none;
-    }
+    @include buttonStyle;
   }
 }
