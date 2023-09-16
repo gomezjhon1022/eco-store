@@ -5,10 +5,9 @@
   width: auto;
   @include flexCenter(row, space-between,center);
   color: $primary-text-color;
-  padding: 15px;
+  padding: 40px 60px;
   p {
     font-size: $paragraph-size;
-    padding-left: 30px;
   }
   .icons {
     display: flex;

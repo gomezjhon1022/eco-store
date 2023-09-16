@@ -5,7 +5,7 @@
   article {
     width: auto;
     color: $primary-text-color;
-    padding: 70px 45px 0 45px;
+    padding: 70px 60px 0 60px;
     @include flexCenter(row, space-between, center);
     .impact-section  {
       @include flexCenter(column, space-evenly, flex-start);
@@ -29,6 +29,10 @@
       border-radius: 35px;
       color: white;
       font-size: 1em;
+      &:hover {
+        transform: scale(1.1);
+        transition-duration: 0.3s;
+      }
     }
     img {
       width: 25vw;
@@ -90,6 +94,9 @@
             border-radius: 6px;
           }
         }
+        h3,p {
+          margin-top: 5px;
+        }
       }
     }
     .furniture {
@@ -105,8 +112,9 @@
       font-weight: bold;
       padding-bottom: 60px;
     }
-    .mision-section {
+    .mission-section {
       @include flexCenter(row, space-evenly,center);
+      margin-bottom: 60px;
       .earth {
         width: 50vh;
         @include flexCenter(row, center,center);
@@ -124,6 +132,42 @@
       .innovation {
         @extend .earth;
       }
+    }
+  }
+  .gallery {
+    h2 {
+      font-weight: bold;
+      padding-bottom: 60px
+    }
+    .gallery-images {
+      @include flexCenter(row, space-between,center);
+      img {
+        height: 45vh;
+        width: 28vw;
+        object-fit: cover;
+        object-position: 5px 35%;
+        border-radius: 16px;
+        &:hover {
+          transform: scale(1.1);
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+  .location {
+    color: #E86424;
+    h2 {
+      padding:60px 0;
+    }
+    .map {
+      @include flexCenter(row, center,center);
+      padding-bottom: 50px;
+      img {
+        width: 100%;
+      }
+    }
+    h3, p {
+      font-size: $paragraph-size;
     }
   }
 }

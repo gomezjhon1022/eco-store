@@ -17,6 +17,10 @@ import table from '../../assets/img/furniture/table.jpg';
 import woodchair from '../../assets/img/furniture/wood-chair.jpg';
 import earth from '../..//assets/img/earth.png';
 import ecology from '../..//assets/img/ecology.png';
+import gallery1 from '../../assets/img/gallery-1.jpg';
+import gallery2 from '../../assets/img/gallery-2.jpg';
+import gallery3 from '../../assets/img/gallery-3.jpg';
+import map from '../../assets/img/map.png';
 
 
 function Main () {
@@ -124,10 +128,10 @@ function Main () {
                         </svg>
                       </div>
                       <div className='product-image'>
-                        <img src={tootbrush} alt=''/>
+                        <img src={woodchair} alt=''/>
                       </div>
-                      <h3>Mesa decorativa</h3>
-                      <p>Paquete de 2 unidades</p>
+                      <h3>Silla de bambú</h3>
+                      <p>Disponible en 2 colores: blanco y negro, acabado de bambú</p>
                     </div>
                     <div className='product-card'>
                       <div className='icon'>
@@ -136,10 +140,10 @@ function Main () {
                         </svg>
                       </div>
                       <div className='product-image'>
-                        <img src={tootbrush} alt=''/>
+                        <img src={smalltable} alt=''/>
                       </div>
-                      <h3>Mesa de desayuno</h3>
-                      <p>Paquete de 2 unidades</p>
+                      <h3>Banco pequeño</h3>
+                      <p>Ideal para agregar un toque de estilo a tus espacios.</p>
                     </div>
                     <div className='product-card'>
                       <div className='icon'>
@@ -148,10 +152,10 @@ function Main () {
                         </svg>
                       </div>
                       <div className='product-image'>
-                        <img src={tootbrush} alt=''/>
+                        <img src={table} alt=''/>
                       </div>
-                      <h3>Mesa decorativa</h3>
-                      <p>Paquete de 2 unidades</p>
+                      <h3>Buró</h3>
+                      <p>Elaborado con bambú cuenta con 2 compartimientos para guardar cosas.</p>
                     </div>
                     <div className='product-card'>
                       <div className='icon'>
@@ -160,10 +164,10 @@ function Main () {
                         </svg>
                       </div>
                       <div className='product-image'>
-                        <img src={tootbrush} alt=''/>
+                        <img src={stand} alt=''/>
                       </div>
-                      <h3>Cepillo de bambú</h3>
-                      <p>Paquete de 2 unidades</p>
+                      <h3>Cajonera</h3>
+                      <p>Paquete de 2 unidades hecho 100% de materiales ecológicos.</p>
                     </div>
                     <div className='product-card'>
                       <div className='icon'>
@@ -172,10 +176,10 @@ function Main () {
                         </svg>
                       </div>
                       <div className='product-image'>
-                        <img src={tootbrush} alt=''/>
+                        <img src={mirror} alt=''/>
                       </div>
-                      <h3>Cepillo de bambú</h3>
-                      <p>Paquete de 2 unidades</p>
+                      <h3>Espejo de pared</h3>
+                      <p>Paquete de 2 unidades hecho 100% de materiales ecológicos.</p>
                     </div>
                     <div className='product-card'>
                       <div className='icon'>
@@ -184,10 +188,10 @@ function Main () {
                         </svg>
                       </div>
                       <div className='product-image'>
-                        <img src={tootbrush} alt=''/>
+                        <img src={desklamp} alt=''/>
                       </div>
-                      <h3>Cepillo de bambú</h3>
-                      <p>Paquete de 2 unidades</p>
+                      <h3>Lámpara bambú</h3>
+                      <p>Paquete de 2 unidades hecho 100% de materiales ecológicos.</p>
                     </div>
                   </div>
             </div>
@@ -195,7 +199,7 @@ function Main () {
         <section className="info-section">
             <div className="about-us">
                 <h2>¿Por qué nosotros?</h2>
-                <div className='mision-section'>
+                <div className='mission-section'>
                   <div className="earth">
                       <img src={earth} alt=""/>
                       <p>
@@ -212,22 +216,19 @@ function Main () {
             </div>
             <div className="gallery">
                 <h2>Galería de estilos</h2>
-            </div>
-            <div>
-              <img src='' alt=''/>
-            </div>
-            <div>
-              <img src='' alt=''/>
-            </div>
-            <div>
-              <img src='' alt=''/>
+                <div className='gallery-images'>
+                  <img src={gallery1} alt=''/>
+                  <img src={gallery2} alt=''/>
+                  <img src={gallery3} alt=''/>
+                </div>
             </div>
             <div className="location">
                 <h2>Encuéntranos</h2>
                 <div className="map">
-                    <img src="" alt=""/>
+                    <img src={map} alt=""/>
                 </div>
-                <p></p>
+                <h3>Centro Mayor Centro Comercial</h3>
+                <p>Cl. 38A Sur # 34d-51, Bogotá, Colombia</p>
             </div>
         </section>
     </div>

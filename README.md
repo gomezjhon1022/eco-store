@@ -1,3 +1,12 @@
+# Eco-Store
+
+Este proyecto fue creado como parte de la práctica de Sass en React y tiene como objetivo mostrar el uso de estilos y componentes en una aplicación de comercio electrónico ficticia llamada Eco-Store.
+
+## Deployment
+
+
+https://gomezjhon1022.github.io/eco-store/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
